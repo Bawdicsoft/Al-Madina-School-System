@@ -17,10 +17,10 @@ export default function HeroSection() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="pt-5 mt-32 ">
+    <div className="pt-5 mt-28 ">
       <div className="relative isolate px-6 lg:px-8 ">
         <div
-          className="max-w-7xl rounded-[40px] relative pt-40 mx-auto"
+          className="max-w-7xl rounded-[40px] relative pt-48 mx-auto"
           style={{
             backgroundImage: "url(./bannerHero.jpg)",
             backgroundSize: "cover",
@@ -29,7 +29,7 @@ export default function HeroSection() {
         >
           <Image
             src={"/heroSecImg.png"}
-            className="mx-auto w-7/12 h-80"
+            className="mx-auto w-7/12 h-90"
             alt="heroImage"
             width={900}
             height={200}

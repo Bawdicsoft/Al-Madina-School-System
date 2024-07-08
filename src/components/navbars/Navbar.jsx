@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="border-gray-200 bg-gray-100 fixed w-full top-0 lg:top-10 left-0 z-40">
+      <nav className="border-gray-200 bg-gray-100 fixed w-full top-0  left-0 z-40">
         <div className="max-w-screen-2xl lg:px-10 flex  items-center justify-between mx-auto py-1 px-2">
           <a
             href="/"
