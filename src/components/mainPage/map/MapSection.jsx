@@ -1,3 +1,4 @@
+import AnimationBottom from "@/components/animations/AnimationBottom";
 import { BorderButton } from "@/components/borderButton/BorderButton";
 
 const MapSection = () => {
@@ -17,27 +18,29 @@ const MapSection = () => {
           scrolling="no"
         ></iframe>
       </div>
-      <div className="grid grid-cols-3 gap-3 max-w-5xl mx-auto pt-5 pb-20 ">
-        <div className="bg-white p-6 flex flex-col gap-3 shadow-2xl pb-10">
-          <p className="text-2xl font-semibold text-gray-700">UK Timetable</p>
-          <p className="text-lg font-semibold">GMT/BST</p>
-          <BorderButton title={"Learn more"} link={"/"} />
+      <AnimationBottom>
+        <div className="grid grid-cols-3 gap-3 max-w-5xl mx-auto pt-5 pb-20 ">
+          <div className="bg-white p-6 flex flex-col gap-3 shadow-2xl pb-10">
+            <p className="text-2xl font-semibold text-gray-700">UK Timetable</p>
+            <p className="text-lg font-semibold">GMT/BST</p>
+            <BorderButton title={"Learn more"} link={"/"} />
+          </div>
+          <div className="bg-white  p-6 flex flex-col gap-3 shadow-2xl pb-10">
+            <p className="text-2xl font-semibold text-gray-700">
+              Middle East Timetable
+            </p>
+            <p className="text-lg font-semibold">GST/GMT+4</p>
+            <BorderButton title={"Learn more"} link={"/"} />
+          </div>
+          <div className="bg-white p-6 flex flex-col gap-3 shadow-2xl pb-10">
+            <p className="text-2xl font-semibold text-gray-700">
+              Southeast Asia Timetable
+            </p>
+            <p className="text-lg font-semibold">GMT+7</p>
+            <BorderButton title={"Learn more"} link={"/"} />
+          </div>
         </div>
-        <div className="bg-white  p-6 flex flex-col gap-3 shadow-2xl pb-10">
-          <p className="text-2xl font-semibold text-gray-700">
-            Middle East Timetable
-          </p>
-          <p className="text-lg font-semibold">GST/GMT+4</p>
-          <BorderButton title={"Learn more"} link={"/"} />
-        </div>
-        <div className="bg-white p-6 flex flex-col gap-3 shadow-2xl pb-10">
-          <p className="text-2xl font-semibold text-gray-700">
-            Southeast Asia Timetable
-          </p>
-          <p className="text-lg font-semibold">GMT+7</p>
-          <BorderButton title={"Learn more"} link={"/"} />
-        </div>
-      </div>
+      </AnimationBottom>
     </div>
   );
 };

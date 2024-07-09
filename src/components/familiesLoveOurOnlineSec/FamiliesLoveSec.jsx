@@ -1,37 +1,44 @@
 import Image from "next/image";
 import React from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
+import AnimatedComponentLeft from "../animations/AnimationLeft";
+import AnimatedComponentRight from "../animations/AnimationRigth";
 export const FamiliesLoveSec = () => {
   return (
     <div className=" bg-slate-100 pb-10">
       <div className="grid grid-cols-2 gap-5 mx-auto my-20 py-20 max-w-6xl">
-        <div className="relative">
-          <img
-            className="w-60 h-80 -rotate-3"
-            // src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
-            src="https://image1.masterfile.com/getImage/NjMwLTA2NzIzMDE3ZW4uMDAwMDAwMDA=AJfl5r/630-06723017en_Masterfile.jpg"
-            alt="familyImage"
-          />
-          <img
-            className="absolute w-64 h-80 rotate-12 top-8 left-56"
-            src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
-            alt="familyImage"
-          />
-        </div>
-        <div className="flex flex-col gap-5">
-          <p className="w-60 font-bold text-blue-500 py-2 px-4 border-1 border-sky-400 rounded-full bg-slate-200">
-            What makes us different?
-          </p>
-          <h2 className="text-4xl font-bold text-gray-700">
-            Why families love our online school
-          </h2>
-          <p className="text-lg font-semibold">
-            King’s InterHigh is a place where everyone can belong. Our diverse
-            and inclusive global online school community welcomes every family,
-            right from your first-day induction.
-          </p>
-        </div>
+        <AnimatedComponentLeft>
+          <div className="relative">
+            <img
+              className="w-60 h-80 -rotate-3"
+              // src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
+              src="https://image1.masterfile.com/getImage/NjMwLTA2NzIzMDE3ZW4uMDAwMDAwMDA=AJfl5r/630-06723017en_Masterfile.jpg"
+              alt="familyImage"
+            />
+            <img
+              className="absolute w-64 h-80 rotate-12 top-8 left-56"
+              src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
+              alt="familyImage"
+            />
+          </div>
+        </AnimatedComponentLeft>
+        <AnimatedComponentRight>
+          <div className="flex flex-col gap-5">
+            <p className="w-60 font-bold text-blue-500 py-2 px-4 border-1 border-sky-400 rounded-full bg-slate-200">
+              What makes us different?
+            </p>
+            <h2 className="text-4xl font-bold text-gray-700">
+              Why families love our online school
+            </h2>
+            <p className="text-lg font-semibold">
+              King’s InterHigh is a place where everyone can belong. Our diverse
+              and inclusive global online school community welcomes every
+              family, right from your first-day induction.
+            </p>
+          </div>
+        </AnimatedComponentRight>
       </div>
+
       <div className="grid grid-cols-3 gap-8 place-items-center max-w-6xl mx-auto">
         <div className="flex flex-col gap-5">
           <span className="w-12 h-12 bg-green-600 rounded-full p-3">

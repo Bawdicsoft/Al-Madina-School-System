@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Drawer from "../drawer/Drawer";
-
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { Button } from "../button/Button";
 import { BorderButton } from "../borderButton/BorderButton";
@@ -74,11 +74,13 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="hidden  lg:flex gap-3  xl:gap-6">
+          <div className="hidden  lg:flex items-center gap-3  xl:gap-6">
             {/* <button className="hover:scale-105 bg-sky-900 transition duration-1000 border hover:text-gray-800 hover:bg-gray-100 hover:border-sky-600 text-gray-100 text-sm xl:text-base uppercase  py-2 px-4 rounded-md font-bold ">
               enquire
             </button> */}
+
             <Button link="/" title={"enquire"} />
+
             <BorderButton link="/" title={"register now"} />
           </div>
         </div>
