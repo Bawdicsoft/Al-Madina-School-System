@@ -9,9 +9,9 @@ export const GallerySection = () => {
     <div className="pb-20 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 gap-10 mx-auto max-w-7xl pt-10 pb-20">
         <AnimationBottom>
-          <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] relative ">
+          <div className="overflow-hidden w-full h-[300px] md:h-[400px] lg:h-[500px] relative ">
             <img
-              className="w-full h-full"
+              className="w-full h-full hover:scale-125 ease-in duration-300"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
             />
             <div className="absolute top-16  left-10">
@@ -37,9 +37,9 @@ export const GallerySection = () => {
           </div>
         </AnimationBottom>
         <AnimationTop>
-          <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] relative">
+          <div className="w-full h-[300px] overflow-hidden md:h-[400px] lg:h-[500px] relative">
             <img
-              className="w-full h-full"
+              className="w-full h-full hover:scale-125 ease-in duration-300"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
             />
             <div className="absolute bottom-10 left-1/3">
@@ -50,12 +50,14 @@ export const GallerySection = () => {
       </div>
       <AnimationBottom>
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center lg:grid-cols-3  mx-auto">
-          <div className="w-11/12 h-60  md:h-[250px] relative">
-            <img
-              className="w-full h-full"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
-            />
-            <span className="absolute  -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-10">
+          <div className="group hover:shadow-2xl w-11/12 h-60 md:h-[250px] relative">
+            <div className=" overflow-hidden">
+              <img
+                className="group-hover:scale-125 ease-in duration-300 w-full h-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+              />
+            </div>
+            <span className="absolute  -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6">
               20/02/2024
             </span>
             <p className="pt-5 text-lg font-semibold">
@@ -64,12 +66,14 @@ export const GallerySection = () => {
               the 1500s, when an unknown printer took a galley of{" "}
             </p>
           </div>
-          <div className="w-11/12 mt-32 lg:mt-0 h-60  md:h-[250px] relative">
-            <img
-              className="w-full h-full"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
-            />
-            <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-10">
+          <div className="group hover:shadow-2xl w-11/12 mt-32 lg:mt-0 h-60  md:h-[250px] relative">
+            <div className=" overflow-hidden">
+              <img
+                className="group-hover:scale-125 ease-in duration-300 w-full h-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+              />
+            </div>
+            <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6">
               20/02/2024
             </span>
             <p className="pt-5 text-lg font-semibold">
@@ -78,12 +82,14 @@ export const GallerySection = () => {
               the 1500s, when an unknown printer took a galley of{" "}
             </p>
           </div>
-          <div className="w-11/12 h-60  md:h-[250px]  mt-32 md:mt-40 lg:mt-0 relative">
-            <img
-              className="w-full h-full"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
-            />
-            <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-10 ">
+          <div className="w-11/12 h-60 group hover:shadow-2xl md:h-[250px]  mt-32 md:mt-40 lg:mt-0 relative">
+            <div className=" overflow-hidden">
+              <img
+                className="group-hover:scale-125 ease-in duration-300 w-full h-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+              />
+            </div>
+            <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6 ">
               20/02/2024
             </span>
             <p className="pt-5 text-lg font-semibold">

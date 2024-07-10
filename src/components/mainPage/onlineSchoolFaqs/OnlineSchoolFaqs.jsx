@@ -4,7 +4,7 @@ export const OnlineSchoolFaqs = () => {
   return (
     <div>
       <div className="mx-auto max-w-6xl mt-16 px-5">
-        <h2 classNameName="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 pt-20  pb-10">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 pt-20  pb-10">
           Online School FAQs
         </h2>
         <div className="divide-y divide-gray-100">
