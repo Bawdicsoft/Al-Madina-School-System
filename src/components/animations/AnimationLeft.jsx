@@ -36,19 +36,19 @@ const AnimatedComponentLeft = ({ children }) => {
     // console.log("isLLarge--->", isLlarge);
 
     if (isExtraSmall) {
-      xValue = -20;
+      xValue = -10;
     } else if (isSmallM) {
-      xValue = -30;
+      xValue = -20;
     } else if (isSmallL) {
-      xValue = -30;
+      xValue = -20;
     } else if (isMedium) {
-      xValue = -30;
+      xValue = -20;
     } else if (isLarge) {
-      xValue = -170;
+      xValue = -50;
     } else if (isLlarge) {
-      xValue = -200;
+      xValue = -50;
     } else {
-      xValue = -250;
+      xValue = -150;
     }
 
     if (inView) {

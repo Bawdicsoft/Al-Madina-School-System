@@ -7,7 +7,7 @@ import AnimatedComponentRight from "../animations/AnimationRigth";
 
 export const SchoolTrust = () => {
   return (
-    <div className="mx-auto max-w-6xl py-16 px-5 ">
+    <div className="mx-auto max-w-7xl py-16 px-5 ">
       <AboutSchool
         buttonTile="Our School"
         title="   A school you can trust"
