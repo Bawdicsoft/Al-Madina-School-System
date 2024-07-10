@@ -51,8 +51,9 @@ export default function Drawer({ open, drawerHandler }) {
                 </div>
                 <div className="relative mt-10 flex flex-col gap-2 px-4 sm:px-6">
                   {/* Your content */}
-                  {navigationList.map((item) => (
+                  {navigationList.map((item, index) => (
                     <Link
+                      key={index}
                       className="bg-gray-100 rounded-md  p-2 border transition duration-1000 hover:text-sky-400 hover:border-sky-600"
                       href={item.link}
                     >

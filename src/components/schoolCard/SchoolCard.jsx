@@ -25,8 +25,9 @@ export const SchoolCard = () => {
   return (
     <AnimationBottom>
       <div className="flex flex-wrap gap-8 justify-center">
-        {schoolCardList.map((item) => (
+        {schoolCardList.map((item, index) => (
           <div
+            key={index}
             className={`
             ${
               item.schoolName === "Middle School"
