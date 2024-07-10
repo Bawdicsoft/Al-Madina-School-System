@@ -6,29 +6,29 @@ import React from "react";
 
 export const GallerySection = () => {
   return (
-    <div className="pb-20">
-      <div className="grid grid-cols-1  md:grid-cols-2 gap-10 mx-auto max-w-7xl pt-10 pb-20">
+    <div className="pb-20 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 gap-10 mx-auto max-w-7xl pt-10 pb-20">
         <AnimationBottom>
-          <div className="w-full h-[500px] relative ">
+          <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] relative ">
             <img
               className="w-full h-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
             />
             <div className="absolute top-16  left-10">
               <Link
-                className="bg-gray-500 text-gray-200 p-3 rounded-full hover:scale-105 transition duration-1000"
+                className="bg-gray-500 text-sm  md:text-base text-gray-200 p-3 rounded-full hover:scale-105 transition duration-1000"
                 href={"/"}
               >
                 Feature Article
               </Link>
             </div>
-            <div className="absolute top-1/2 left-20 right-0 bg-white p-8">
+            <div className="absolute top-1/2 left-5 md:left-20 right-0 bg-white p-3 md:p-8">
               <Link
-                className="flex gap-4 flex-col text-gray-800 p-3 rounded-full"
+                className="flex gap-4 flex-col text-gray-800 md:p-3 rounded-full"
                 href={"/"}
               >
                 <span className="">27/06/2024</span>
-                <span className="text-2xl text-gray-800">
+                <span className="text-base md:text-2xl text-gray-800">
                   Award-winning actress Lillia Turner- Star on screen, online
                   student backstage
                 </span>
@@ -37,7 +37,7 @@ export const GallerySection = () => {
           </div>
         </AnimationBottom>
         <AnimationTop>
-          <div className="w-full h-[500px] relative">
+          <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] relative">
             <img
               className="w-full h-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
@@ -49,8 +49,8 @@ export const GallerySection = () => {
         </AnimationTop>
       </div>
       <AnimationBottom>
-        <div className="grid grid-cols-3 max-w-6xl mx-auto">
-          <div className="w-[360px] h-[250px] relative">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center lg:grid-cols-3  mx-auto">
+          <div className="w-11/12 h-60  md:h-[250px] relative">
             <img
               className="w-full h-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
@@ -64,7 +64,7 @@ export const GallerySection = () => {
               the 1500s, when an unknown printer took a galley of{" "}
             </p>
           </div>
-          <div className="w-[360px] h-[250px] relative">
+          <div className="w-11/12 mt-32 lg:mt-0 h-60  md:h-[250px] relative">
             <img
               className="w-full h-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
@@ -78,7 +78,7 @@ export const GallerySection = () => {
               the 1500s, when an unknown printer took a galley of{" "}
             </p>
           </div>
-          <div className="w-[360px] h-[250px] relative">
+          <div className="w-11/12 h-60  md:h-[250px]  mt-32 md:mt-40 lg:mt-0 relative">
             <img
               className="w-full h-full"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"

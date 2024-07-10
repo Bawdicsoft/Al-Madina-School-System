@@ -33,7 +33,7 @@ export default function Drawer({ open, drawerHandler }) {
               className="pointer-events-auto relative w-screen max-w-md transform transition duration-500 ease-in-out data-[closed]:translate-x-full sm:duration-700"
             >
               <TransitionChild>
-                <div className="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 duration-500 ease-in-out data-[closed]:opacity-0 sm:-ml-10 sm:pr-4">
+                <div className="absolute left-0 top-20 -ml-8 flex pr-2 pt-4 duration-500 ease-in-out data-[closed]:opacity-0 sm:-ml-10 sm:pr-4">
                   <button
                     type="button"
                     onClick={drawerHandler}
@@ -49,7 +49,7 @@ export default function Drawer({ open, drawerHandler }) {
                 <div className="px-4 sm:px-6">
                   <img src="./logo.png" alt="logo" className="h-16 lg:h-20" />
                 </div>
-                <div className="relative mt-2 flex flex-col gap-2 px-4 sm:px-6">
+                <div className="relative mt-10 flex flex-col gap-2 px-4 sm:px-6">
                   {/* Your content */}
                   {navigationList.map((item) => (
                     <Link

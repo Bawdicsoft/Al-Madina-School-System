@@ -17,7 +17,7 @@ import { SchoolTrust } from "@/components/schoolTrust/SchoolTrust";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <Rating />
       <KeyStagesText />

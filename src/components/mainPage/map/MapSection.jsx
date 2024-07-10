@@ -4,13 +4,13 @@ import { BorderButton } from "@/components/borderButton/BorderButton";
 const MapSection = () => {
   return (
     // New Code
-    <div className="flex flex-col gap-10 py-14 md:py-16 pb-80 bg-slate-100">
+    <div className="flex flex-col gap-10 py-14 md:py-16 pb-80 bg-slate-100 px-5">
       <div className="flex justify-center items-center">
-        <p className="text-4xl text-gray-700 font-bold text-center w-6/12 py-2 px-4">
+        <p className="text-2xl lg:text-4xl text-gray-700 font-bold text-center w-6/12 py-2 px-4">
           Delivering the Full UK curriculum internationally
         </p>
       </div>
-      <div className=" w-[1000px] h-[450px] max-w-7xl lg:px-8 mx-auto">
+      <div className=" md:w-[700px] lg:w-[1000px] h-[450px] max-w-7xl lg:px-8 mx-auto">
         <iframe
           className="h-full w-full rounded-3xl"
           id="gmap_canvas"

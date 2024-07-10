@@ -41,15 +41,15 @@ export default function HeroSection() {
             ></Image>
           </AnimationBottom>
 
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mx-auto w-11/12 py-64 sm:py-20">
+          <div className="absolute md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mx-auto w-11/12  sm:py-20">
             <div className="text-center">
               <AnimationPopUp>
-                <h1 className="text-xl font-semibold tracking-tight text-white sm:text-5xl">
+                <h1 className="text-lg font-semibold tracking-tight text-white md:text-3xl lg:text-5xl">
                   Academic Excellence Meets Islamic Values – Learn Anywhere,
                   Anytime.
                 </h1>
               </AnimationPopUp>
-              <p className="mt-6 text-2xl font-semibold leading-8 text-gray-200">
+              <p className="mt-6 text-lg md:text-2xl font-semibold leading-8 text-gray-200">
                 19: Building Brighter Futures through Faith and Virtual
                 Learning.
               </p>
@@ -68,8 +68,8 @@ export default function HeroSection() {
                 className="cursor-pointer"
               >
                 <AnimationTop>
-                  <div className="bg-white p-4 w-16 h-16 rounded-full transition duration-1000 hover:scale-110">
-                    <GoArrowDown className="w-8 h-8 text-gray-600" />
+                  <div className="bg-white flex justify-center items-center p-3 md:p-4 md:w-14 lg:w-16 md:h-14 lg:h-16 rounded-full transition duration-1000 hover:scale-110">
+                    <GoArrowDown className=" w-8 h-8 text-gray-600" />
                   </div>
                 </AnimationTop>
               </ScrollLink>

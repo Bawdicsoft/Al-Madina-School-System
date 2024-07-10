@@ -9,7 +9,7 @@ export const Button = ({ link, title }) => {
     >
       <Link
         href={link}
-        className="bg-yellow-400 uppercase py-4 hover:scale-105 transition duration-1000 px-8 rounded-lg font-bold"
+        className="bg-yellow-400 uppercase py-2 md:py-3 lg:py-4 hover:scale-105 transition duration-1000 text-sm md:text-base px-3 md:px-8 rounded-lg font-bold"
       >
         {title}
       </Link>

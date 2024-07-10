@@ -3,10 +3,10 @@ import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 export const SchoolCategories = () => {
   return (
-    <div className="bg-slate-100 py-20">
-      <div className="grid grid-cols-3 gap-8 place-items-center max-w-6xl mx-auto ">
+    <div className="bg-slate-100 pb-20 lg:py-20 px-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center max-w-6xl mx-auto ">
         <div className="flex flex-col gap-5">
-          <span className="w-14 h-14 flex justify-center items-center text-white bg-sky-600 text-3xl font-semibold rounded-full p-3">
+          <span className="w-12 h-12 lg:w-14 lg:h-14 flex justify-center items-center text-white bg-sky-600 text-xl lg:t-3xl font-semibold rounded-full p-3">
             1
           </span>
           <p className="text-2xl font-bold text-sky-900">Pastoral care</p>
@@ -17,7 +17,7 @@ export const SchoolCategories = () => {
           </p>
         </div>
         <div className="flex flex-col gap-5">
-          <span className="w-14 h-14 flex justify-center items-center text-white bg-green-600 text-3xl font-semibold rounded-full p-3">
+          <span className="w-12 h-12 lg:w-14 lg:h-14 flex justify-center items-center text-white bg-green-600 text-xl lg:ext-3xl font-semibold rounded-full p-3">
             2
           </span>
           <p className="text-2xl font-bold text-sky-900">SEN support</p>
@@ -35,7 +35,7 @@ export const SchoolCategories = () => {
           </Link>
         </div>
         <div className="flex flex-col gap-5">
-          <span className="w-14 h-14 flex justify-center items-center text-white bg-orange-500 text-3xl font-semibold rounded-full p-3">
+          <span className="w-12 h-12 lg:w-14 lg:h-14 flex justify-center items-center text-white bg-orange-500 text-xl lg:text-3xl font-semibold rounded-full p-3">
             3
           </span>
           <p className="text-2xl font-bold text-sky-900">

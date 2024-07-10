@@ -3,8 +3,8 @@ import React from "react";
 import { RiStarFill } from "react-icons/ri";
 export const Rating = () => {
   return (
-    <div className="mx-auto pt-16">
-      <div className="flex gap-5 items-center justify-center">
+    <div className="mx-auto pt-16 px-5">
+      <div className="flex gap-5 items-center flex-wrap justify-center">
         <Link href={"/"} className="text-sm">
           Our customers say
         </Link>
