@@ -1,5 +1,5 @@
-import { AboutSchool } from "@/components/school/AboutSchool";
 import React from "react";
+import { AboutSchool } from "../school/AboutSchool";
 
 export const SchoolInsights = () => {
   return (

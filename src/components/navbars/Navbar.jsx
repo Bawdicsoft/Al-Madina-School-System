@@ -3,8 +3,9 @@ import React from "react";
 import Drawer from "../drawer/Drawer";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Button } from "../button/Button";
-import { BorderButton } from "../borderButton/BorderButton";
+
+import { Button } from "../mainPage/button/Button";
+import { BorderButton } from "../mainPage/borderButton/BorderButton";
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
   const drawerHandler = () => {

@@ -1,5 +1,5 @@
 import AnimationBottom from "@/components/animations/AnimationBottom";
-import { BorderButton } from "@/components/borderButton/BorderButton";
+import { BorderButton } from "../borderButton/BorderButton";
 
 const MapSection = () => {
   return (

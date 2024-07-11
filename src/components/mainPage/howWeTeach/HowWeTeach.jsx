@@ -1,8 +1,8 @@
-import { BorderButton } from "@/components/borderButton/BorderButton";
 import Image from "next/image";
 import React from "react";
 
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { BorderButton } from "../borderButton/BorderButton";
 export const HowWeTeach = () => {
   return (
     <div>

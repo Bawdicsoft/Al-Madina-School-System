@@ -1,8 +1,9 @@
 import AnimationBottom from "@/components/animations/AnimationBottom";
 import AnimationTop from "@/components/animations/AnimationTop";
-import { Button } from "@/components/button/Button";
+
 import Link from "next/link";
 import React from "react";
+import { Button } from "../button/Button";
 
 export const GallerySection = () => {
   return (

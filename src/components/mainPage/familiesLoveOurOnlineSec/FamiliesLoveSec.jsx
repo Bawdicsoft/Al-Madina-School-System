@@ -1,8 +1,9 @@
+import AnimatedComponentLeft from "@/components/animations/AnimationLeft";
+import AnimatedComponentRight from "@/components/animations/AnimationRigth";
 import Image from "next/image";
 import React from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
-import AnimatedComponentLeft from "../animations/AnimationLeft";
-import AnimatedComponentRight from "../animations/AnimationRigth";
+
 export const FamiliesLoveSec = () => {
   return (
     <div className=" bg-slate-100 pb-10 px-5">

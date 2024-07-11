@@ -25,11 +25,14 @@ export const Footer = () => {
 
               <div className="flex ">
                 <a href="#" className="text-gray-900">
-                  <FaFacebook className="w-7 h-7 text-gray-700" />
+                  <FaFacebook className="w-7 h-7 text-gray-700 transition duration-500 hover:text-gray-500" />
                   <span className="sr-only">Facebook page</span>
                 </a>
 
-                <a href="#" className="text-gray-700 ms-5">
+                <a
+                  href="#"
+                  className="text-gray-700 transition duration-500 hover:text-gray-500 ms-5"
+                >
                   <svg
                     className="w-7 h-7"
                     aria-hidden="true"
@@ -46,11 +49,11 @@ export const Footer = () => {
                   <span className="sr-only">Twitter page</span>
                 </a>
                 <a href="#" className="text-gray-700 ms-5">
-                  <IoLogoInstagram className="w-7 h-7 text-gray-500" />
+                  <IoLogoInstagram className="w-7 h-7 text-gray-700 transition duration-500 hover:text-gray-500" />
                   <span className="sr-only">Twitter page</span>
                 </a>
                 <a href="#" className="text-gray-700 ms-5">
-                  <ImYoutube className="w-7 h-7 text-gray-500" />
+                  <ImYoutube className="w-7 h-7 text-gray-700 transition duration-500 hover:text-gray-500" />
                   <span className="sr-only">Twitter page</span>
                 </a>
               </div>

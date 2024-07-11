@@ -5,11 +5,12 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import { Button } from "@/components/button/Button";
+
 import AnimationBottom from "@/components/animations/AnimationBottom";
 import AnimationTop from "@/components/animations/AnimationTop";
 import AnimationPopUp from "@/components/animations/AnimationPopup";
 import { motion } from "framer-motion";
+import { Button } from "../button/Button";
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
