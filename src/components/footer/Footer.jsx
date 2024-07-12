@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoLogoInstagram } from "react-icons/io5";
 import { ImYoutube } from "react-icons/im";
 import { FaFacebook } from "react-icons/fa6";
+import { RiStarFill } from "react-icons/ri";
+import Link from "next/link";
 export const Footer = () => {
+  const [dropdown, setDropDown] = useState(false);
   return (
     <footer className="bg-white border-t">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -197,7 +200,7 @@ export const Footer = () => {
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
+        {/* <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm  sm:text-center text-gray-700">
             © 2024{" "}
             <a href="https://bawdicsoft.com/" className="hover:underline">
@@ -235,6 +238,180 @@ export const Footer = () => {
               <ImYoutube className="w-5 h-5 text-gray-500" />
               <span className="sr-only">Twitter page</span>
             </a>
+          </div>
+        </div> */}
+
+        {/* mid footer */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10">
+          <div className="flex flex-col gap-3 ">
+            <span className="text-xs">Accreditations</span>
+            <div className="flex gap-3 bg-gray-200 p-4">
+              <img src="./cambridge_assessment.svg" alt="image" />
+              <p className="text-xs">
+                King's InterHigh is a registered online Cambridge International
+                School.
+              </p>
+            </div>
+            <div className="flex gap-3 bg-gradient-to-tl bg-sky-50 p-4">
+              <img src="./diploma_programme.svg" alt="image" />
+              <p className="text-xs">
+                King's InterHigh is proud to offer the world's first online
+                International Baccalaureate® (IB) Diploma Programme.
+              </p>
+            </div>
+            <div className="flex gap-5 items-center flex-wrap justify-center py-5">
+              <span className="text-md">Excellent</span>
+              <div className="flex gap-1">
+                <span className="bg-green-600 p-1">
+                  <RiStarFill className="text-white w-3 h-3" />
+                </span>
+                <span className="bg-green-600 p-1">
+                  <RiStarFill className="text-white w-3 h-3" />
+                </span>
+                <span className="bg-green-600 p-1">
+                  <RiStarFill className="text-white w-3 h-3" />
+                </span>
+                <span className="bg-green-600 p-1">
+                  <RiStarFill className="text-white w-3 h-3" />
+                </span>
+                <span className="bg-green-600 p-1">
+                  <RiStarFill className="text-white w-3 h-3" />
+                </span>
+              </div>
+
+              <div className="flex justify-center items-center gap-1 ">
+                <RiStarFill className="text-green-600 w-5 h-5" />
+                <span className="text-sm">TrustPilot</span>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <div>
+              <span className="text-xs ">Exam Boards</span>
+              <div className="grid grid-cols-4 pt-4">
+                <img src="./ocr.svg" alt="image" />{" "}
+                <img src="./aqa.svg" alt="image" />{" "}
+                <img src="./wjec.svg" alt="image" />{" "}
+                <img src="./edexcel.svg" alt="image" />{" "}
+              </div>
+            </div>
+            <div>
+              <span className="text-xs ">Endorsements</span>
+              <div className="grid grid-cols-5 pt-4">
+                <img src="./good_schools_guide.svg" alt="image" />{" "}
+                <img
+                  src="./top_schools_award.png"
+                  className="w-20 h-16"
+                  alt="image"
+                />{" "}
+                <img
+                  src="./muddy_stilettos.png"
+                  className="w-20 h-16"
+                  alt="image"
+                />{" "}
+                <img src="./besa.svg" alt="image" />{" "}
+                <img src="./cobis.svg" alt="image" />{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* last footer */}
+      </div>
+      <div className="bg-gray-200">
+        <div className=" mx-auto py-4 max-w-7xl text-xs p-3">
+          <div className="flex flex-wrap gap-4">
+            <Link href={"/"}>Privacy policy</Link>
+            <Link href={"/"}>Terms of Use</Link>
+            <Link href={"/"}>Refundes</Link>
+            <Link href={"/"}>Website by Bawdicsoft</Link>
+            {/* <Link href={"/"}>Show Company details</Link> */}
+            {/* <Link href={"/"}>Show Company details</Link> */}
+            <button
+              type="button"
+              onClick={() => setDropDown(!dropdown)}
+              class="  inline-flex items-center   font-medium rounded-lg border  text-gray-800 "
+            >
+              Show Company details
+              <svg
+                className="hs-dropdown-open:rotate-180 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+
+            {dropdown ? (
+              <div className="transition duration gap-5 max-w-7xl grid grid-cols-4 rounded-lg p-2 mt-2 ">
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company's UK Registration name:
+                  </p>
+                  <span className="text-xs">
+                    Reddam House (Berkshire) Limited T/A Kings InterHigh
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company’s UK place of registration:
+                  </p>
+                  <span className="text-xs">
+                    Reddam House, Bearwood, Wokingham, Berkshire, RG41 5BG
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company’s UK registered office:
+                  </p>
+                  <span className="text-xs">
+                    Reddam House, Bearwood, Wokingham, Berkshire, RG41 5BG
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company’s UK registered number:
+                  </p>
+                  <span className="text-xs">09093739</span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company's International Registration name
+                  </p>
+                  <span className="text-xs">
+                    InterHigh International W.L.L T/A Kings InterHigh
+                    International
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company’s International registered office:
+                  </p>
+                  <span className="text-xs">
+                    Office 1652, Entrance 1565, Road 1722, Diplomatic Area 0317,
+                    Kingdom of Bahrain
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-sm font-semibold">
+                    Company’s International registered number:
+                  </p>
+                  <span className="text-xs">147446 – 1</span>
+                </div>
+              </div>
+            ) : null}
+            <div>
+              <p>
+                This site is protected by reCAPTCHA and the Google Privacy
+                Policy and Google Terms of Service apply.
+              </p>
+            </div>
           </div>
         </div>
       </div>
