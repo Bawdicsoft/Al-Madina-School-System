@@ -394,7 +394,7 @@ export const Footer = () => {
                     Company’s International registered office:
                   </p>
                   <span className="text-xs">
-                    Office 1652, Entrance 1565, Road 1722, Diplomatic Area 0317,
+                    Office 1652, Entrance 1565, Road 1722,Diplomatic Area 0317,
                     Kingdom of Bahrain
                   </span>
                 </div>
