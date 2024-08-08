@@ -22,7 +22,7 @@
     "src/components/admin/contextApi/dashboardContext.tsx",
     "src/components/admin/contextApi/dashboardProvider.jsx",
     "src/components/admin/contextApi/donationProvider.jsx",
-    "src/components/admin/contextApi/donationContext.jsx",
+    "src/components/admin/contextApi/donationContext.tsx",
     "src/components/admin/dashboard/sidebar/index.jsx",
     "src/components/admin/dashboard/sidebar/sidebarLinkGroup.jsx",
     "src/components/admin/dashboard/textEditor/index.jsx",

@@ -135,17 +135,13 @@ const ChartOne: React.FC = () => {
   const [state, setState] = useState<ChartOneState>({
     series: [
       {
-        name: "Product One",
+        name: "Faculty",
         data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45],
       },
 
       {
-        name: "Product Two",
+        name: "Students",
         data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39, 51],
-      },
-      {
-        name: "Product Three",
-        data: [30, 25, 36, 10, 45, 35, 43, 52, 59, 37, 19, 51],
       },
     ],
   });
@@ -172,7 +168,7 @@ const ChartOne: React.FC = () => {
               <span className="block h-2 w-full max-w-[9px] rounded-full bg-teal-500"></span>
             </span>
             <div className=" w-full">
-              <p className="font-semibold text-teal-500">Total Revenue</p>
+              <p className="font-semibold text-teal-500">Total Students</p>
               <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
             </div>
           </div>
@@ -181,12 +177,12 @@ const ChartOne: React.FC = () => {
               <span className="block h-2 w-full max-w-[9px] rounded-full bg-indigo-600"></span>
             </span>
             <div className="w-full">
-              <p className="font-semibold text-indigo-600">Total Donations</p>
+              <p className="font-semibold text-indigo-600">Total Faculty</p>
               <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
             </div>
           </div>
         </div>
-        <div className="flex w-full max-w-44 justify-end">
+        {/* <div className="flex w-full max-w-44 justify-end">
           <div className="inline-flex items-center rounded-md bg-whiter p-1.5 dark:bg-meta-4">
             <button className="rounded  py-1 px-3 text-xs font-medium text-black shadow-card hover:bg-white hover:shadow-card">
               Day
@@ -198,7 +194,7 @@ const ChartOne: React.FC = () => {
               Month
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div>

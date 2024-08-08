@@ -142,12 +142,12 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
   return (
     <aside
       ref={sidebar}
-      className={`absolute md:w-80 left-0 top-0 z-50 flex h-screen flex-col overflow-y-hidden bg-sky-800 text-gray-200 duration-300 ease-linear lg:static lg:translate-x-0 ${
+      className={`absolute md:w-80 left-0 top-0 z-50 flex h-screen flex-col overflow-y-hidden bg-blue-800 text-gray-200 duration-300 ease-linear lg:static lg:translate-x-0 ${
         sidebarOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
       {/* <!-- SIDEBAR HEADER --> */}
-      <div className="flex items-center justify-between gap-2 bg-blue-500">
+      <div className="flex items-center justify-between gap-2 bg-blue-700">
         <h2 className="text-2xl text-center  font-bold py-6 uppercase w-full ">
           DashBoard
         </h2>
@@ -168,7 +168,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
           {/* Donation */}
           <div
             className={`flex items-center gap-3 py-2 justify-center mb-4 ml-4 ${
-              pathname === "/admin/dashboard" && "bg-sky-900"
+              pathname === "/admin/dashboard" && "bg-blue-700"
             } `}
           >
             <TiHome className="w-5 h-5 text-gray-300" />

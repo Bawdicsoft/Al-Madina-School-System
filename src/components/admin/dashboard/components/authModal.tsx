@@ -177,7 +177,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
             >
               <Dialog.Panel className="relative md:w-[400px] transform rounded-lg bg-lightGreen  shadow-xl transition-all sm:my-8 p-3">
                 <div className="flex w-full h-full flex-col justify-center  text-black">
-                  <div className="sm:mx-auto sm:w-full sm:max-w-md border p-5 pb-10 border-green rounded-xl bg-teal-600">
+                  <div className="sm:mx-auto sm:w-full sm:max-w-md border p-5 pb-10 border-green rounded-xl bg-blue-700">
                     <form onSubmit={submitHandler} className="space-y-6 ">
                       <h2 className=" text-center text-2xl font-bold leading-9 tracking-tight text-white ">
                         {signUp
@@ -222,7 +222,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
 
                       <button
                         type="submit"
-                        className="flex w-full mx-auto justify-center rounded-3xl  bg-teal-400 px-3 py-1.5 text-sm font-semibold leading-6  shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-text-green"
+                        className="flex w-full mx-auto justify-center rounded-3xl  bg-blue-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-text-green"
                       >
                         {signUp ? " Sign up" : "Sign in"}
                       </button>
