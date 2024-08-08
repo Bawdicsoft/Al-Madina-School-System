@@ -6,11 +6,6 @@ import Loader from "../../../components/admin/dashboard/components/common/Loader
 import DashBoard from "../../../components/admin/dashboard/components/Dashboard/index";
 import Header from "../../../components/admin/dashboard/components/Header";
 import Sidebar from "../../../components/admin/dashboard/components/Sidebar";
-export const metadata = {
-  title: "Fazain Global Relief Foundation UK",
-  description: "This is Admin Dashboard Page",
-  // other metadata
-};
 
 export default function Home() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
