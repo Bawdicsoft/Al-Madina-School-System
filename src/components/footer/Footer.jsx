@@ -329,7 +329,7 @@ export const Footer = () => {
             <button
               type="button"
               onClick={() => setDropDown(!dropdown)}
-              class="  inline-flex items-center   font-medium rounded-lg border  text-gray-800 "
+              className="inline-flex items-center   font-medium rounded-lg border  text-gray-800 "
             >
               Show Company details
               <svg

@@ -9,7 +9,7 @@ export const SchoolExperience = () => {
           buttonTile="student Life"
           title="Life at an online school"
           subtitle="The full school experience"
-          describe="OOur students never miss out on the great parts of attending a physical school."
+          describe="Our students never miss out on the great parts of attending a physical school."
         />
       </div>
     </div>

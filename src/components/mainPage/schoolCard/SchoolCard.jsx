@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../button/Button";
-import AnimationBottom from "@/components/animations/AnimationBottom";
-import AnimationPopUp from "@/components/animations/AnimationPopup";
+import AnimationBottom from "../../animations/AnimationBottom";
+import AnimationPopUp from "../../animations/AnimationPopup";
 
 export const SchoolCard = () => {
   const schoolCardList = [

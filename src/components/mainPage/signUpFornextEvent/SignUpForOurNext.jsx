@@ -1,8 +1,6 @@
-import AnimatedComponentLeft from "@/components/animations/AnimationLeft";
-import AnimationPopUp from "@/components/animations/AnimationPopup";
-import AnimatedComponentRight from "@/components/animations/AnimationRigth";
-import AnimationTop from "@/components/animations/AnimationTop";
 import React from "react";
+import AnimatedComponentLeft from "../../animations/AnimationLeft";
+import AnimationPopUp from "../../animations/AnimationPopup";
 
 export const SignUpForOurNext = () => {
   return (

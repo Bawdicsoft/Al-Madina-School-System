@@ -1,7 +1,7 @@
-import AnimationBottom from "@/components/animations/AnimationBottom";
-import AnimatedComponentLeft from "@/components/animations/AnimationLeft";
-import AnimatedComponentRight from "@/components/animations/AnimationRigth";
 import React from "react";
+import AnimatedComponentLeft from "../../animations/AnimationLeft";
+import AnimationBottom from "../../animations/AnimationBottom";
+import AnimatedComponentRight from "../../animations/AnimationRigth";
 
 export const StudentLifeImages = () => {
   return (

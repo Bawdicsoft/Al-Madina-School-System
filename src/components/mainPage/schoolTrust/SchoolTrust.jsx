@@ -1,9 +1,9 @@
 import React from "react";
 import { BorderButton } from "../borderButton/BorderButton";
 import { AboutSchool } from "../school/AboutSchool";
-import AnimatedComponentLeft from "@/components/animations/AnimationLeft";
-import AnimationTop from "@/components/animations/AnimationTop";
-import AnimatedComponentRight from "@/components/animations/AnimationRigth";
+import AnimatedComponentLeft from "../../animations/AnimationLeft";
+import AnimationTop from "../../animations/AnimationTop";
+import AnimatedComponentRight from "../../animations/AnimationRigth";
 
 export const SchoolTrust = () => {
   return (

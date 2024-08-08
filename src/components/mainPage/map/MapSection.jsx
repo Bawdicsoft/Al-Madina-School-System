@@ -1,4 +1,4 @@
-import AnimationBottom from "@/components/animations/AnimationBottom";
+import AnimationBottom from "../../animations/AnimationBottom";
 import { BorderButton } from "../borderButton/BorderButton";
 
 const MapSection = () => {
@@ -10,7 +10,7 @@ const MapSection = () => {
           Delivering the Full UK curriculum internationally
         </p>
       </div>
-      <div className=" md:w-[700px] lg:w-[1000px] h-[450px] max-w-7xl lg:px-8 mx-auto">
+      <div className="md:w-[700px] lg:w-[1000px] w-full h-[450px] max-w-7xl lg:px-8 mx-auto">
         <iframe
           className="h-full w-full rounded-3xl"
           id="gmap_canvas"
@@ -19,7 +19,7 @@ const MapSection = () => {
         ></iframe>
       </div>
       <AnimationBottom>
-        <div className="grid grid-cols-3 gap-3 max-w-5xl mx-auto pt-5 pb-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 max-w-5xl mx-auto pt-5 pb-20 ">
           <div className="bg-white p-6 flex flex-col gap-3 shadow-2xl pb-10">
             <p className="text-2xl font-semibold text-gray-700">UK Timetable</p>
             <p className="text-lg font-semibold">GMT/BST</p>

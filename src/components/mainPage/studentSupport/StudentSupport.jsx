@@ -1,6 +1,6 @@
-import AnimatedComponentLeft from "@/components/animations/AnimationLeft";
-import AnimatedComponentRight from "@/components/animations/AnimationRigth";
 import React from "react";
+import AnimatedComponentLeft from "../../animations/AnimationLeft";
+import AnimatedComponentRight from "../../animations/AnimationRigth";
 
 export const StudentSupport = () => {
   return (

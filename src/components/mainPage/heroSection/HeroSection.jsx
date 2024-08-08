@@ -6,11 +6,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
-import AnimationBottom from "@/components/animations/AnimationBottom";
-import AnimationTop from "@/components/animations/AnimationTop";
-import AnimationPopUp from "@/components/animations/AnimationPopup";
 import { motion } from "framer-motion";
 import { Button } from "../button/Button";
+import AnimationBottom from "../../animations/AnimationBottom";
+import AnimationPopUp from "../../animations/AnimationPopup";
+import AnimationTop from "../../animations/AnimationTop";
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
@@ -42,25 +42,25 @@ export default function HeroSection() {
             ></Image>
           </AnimationBottom>
 
-          <div className="absolute md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mx-auto w-11/12  sm:py-20">
+          <div className="absolute top-40 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mx-auto w-11/12  sm:py-20">
             <div className="text-center">
               <AnimationPopUp>
-                <h1 className="text-lg font-semibold tracking-tight text-white md:text-3xl lg:text-5xl">
+                <h1 className="text-md font-semibold tracking-tight text-white md:text-3xl lg:text-5xl">
                   Academic Excellence Meets Islamic Values – Learn Anywhere,
                   Anytime.
                 </h1>
               </AnimationPopUp>
-              <p className="mt-6 text-lg md:text-2xl font-semibold leading-8 text-gray-200">
+              <p className="mt-6 text-md md:text-2xl font-semibold leading-8 text-gray-200">
                 19: Building Brighter Futures through Faith and Virtual
                 Learning.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-5 md:mt-10 flex items-center justify-center gap-x-6">
                 <AnimationTop>
                   <Button link={"/"} title={"Join Our next open event"} />
                 </AnimationTop>
               </div>
             </div>
-            <div className="flex justify-center items-center pt-16">
+            <div className="flex justify-center items-center pt-5  md:pt-16">
               <ScrollLink
                 to="key-Stages" // This should match the ID of the element you want to scroll to
                 smooth={true}
@@ -70,7 +70,7 @@ export default function HeroSection() {
               >
                 <AnimationTop>
                   <div className="bg-white flex justify-center items-center p-3 md:p-4 md:w-14 lg:w-16 md:h-14 lg:h-16 rounded-full transition duration-1000 hover:scale-110">
-                    <GoArrowDown className=" w-8 h-8 text-gray-600" />
+                    <GoArrowDown className="h-5 w-5 md:w-8 md:h-8 text-gray-600" />
                   </div>
                 </AnimationTop>
               </ScrollLink>
