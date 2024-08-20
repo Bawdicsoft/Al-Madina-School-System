@@ -8,11 +8,7 @@ export const StudentSupport = () => {
       <div className="grid grid-cols-1 place-items-center max-w-7xl mx-auto lg:grid-cols-2  py-32 px-20 gap-10 mt-20">
         <AnimatedComponentLeft>
           <div>
-            <img
-              className="-rotate-6 rounded-xl"
-              src="https://www.shutterstock.com/image-photo/loyal-dog-looking-female-owner-600nw-2044400042.jpg"
-              alt="image"
-            />
+            <img className="-rotate-6 rounded-xl" src="/08.jpg" alt="image" />
           </div>
         </AnimatedComponentLeft>
         <AnimatedComponentRight>

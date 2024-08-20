@@ -8,11 +8,7 @@ export const SignUpForOurNext = () => {
       {" "}
       <AnimatedComponentLeft>
         <div>
-          <img
-            className=" rounded-xl"
-            src="https://www.shutterstock.com/image-photo/loyal-dog-looking-female-owner-600nw-2044400042.jpg"
-            alt="image"
-          />
+          <img className=" rounded-xl" src="/06.jpg" alt="image" />
         </div>
       </AnimatedComponentLeft>
       <div className="bg-sky-800"></div>

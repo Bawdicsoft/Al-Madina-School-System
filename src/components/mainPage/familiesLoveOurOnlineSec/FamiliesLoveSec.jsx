@@ -11,14 +11,14 @@ export const FamiliesLoveSec = () => {
         <AnimatedComponentLeft>
           <div className="grid grid-cols-2 place-items-center lg:block lg:relative">
             <img
-              className="w-72 h-96 lg:w-60 lg:h-80 -rotate-3"
+              className="w-72 h-96 lg:w-64 lg:h-80 -rotate-3"
               // src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
-              src="https://image1.masterfile.com/getImage/NjMwLTA2NzIzMDE3ZW4uMDAwMDAwMDA=AJfl5r/630-06723017en_Masterfile.jpg"
+              src="/04.jpg"
               alt="familyImage"
             />
             <img
               className="w-72 h-96 lg:absolute lg:w-64 lg:h-80 rotate-12 top-8 left-56"
-              src="https://www.shutterstock.com/image-photo/mother-teenager-girl-laptop-computer-260nw-74632564.jpg"
+              src="/01.jpg"
               alt="familyImage"
             />
           </div>
@@ -46,7 +46,7 @@ export const FamiliesLoveSec = () => {
             <IoCheckmarkSharp className="w-6 h-6  text-white" />
           </span>
           <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Accredited by Cambridge International
+            Education tailoured for your child
           </p>
           <p className="text-base font-light">
             Al-Madinah Online School is accredited by the world-renowned
@@ -59,7 +59,7 @@ export const FamiliesLoveSec = () => {
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
           <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Personalised Learning Experience
+            Qualified and motivated Teachers
           </p>
           <p className="text-base font-light">
             At Al-Madinah, we understand that each student has unique learning
@@ -73,7 +73,7 @@ export const FamiliesLoveSec = () => {
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
           <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Access to the Cambridge International Curriculum
+            Live Lessons
           </p>
           <p className="text-base font-light">
             Even if there isn't a Cambridge school nearby, students can access
@@ -87,7 +87,7 @@ export const FamiliesLoveSec = () => {
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
           <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Flexibility and Accessibility
+            Focus on Child spiritual growth and wellbeing
           </p>
           <p className="text-base font-light">
             Our online platform allows students to study from anywhere, whether
@@ -101,7 +101,7 @@ export const FamiliesLoveSec = () => {
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
           <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Wide Range of Subjects
+            Interactive sessions
           </p>
           <p className="text-base font-light">
             Al-Madinah Online School offers a variety of subjects that may not
@@ -110,7 +110,7 @@ export const FamiliesLoveSec = () => {
             well-rounded education.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
+        {/* <div className="flex flex-col gap-5">
           <span className="w-12 h-12 bg-green-600 rounded-full p-3">
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
@@ -136,7 +136,7 @@ export const FamiliesLoveSec = () => {
             students can grow into confident, compassionate individuals guided
             by Islamic principles and academic success.
           </p>
-        </div>
+        </div> */}
       </div>
       <p className="mx-auto text-center py-8 max-w-4xl">
         Choose Al-Madinah Online School for an education that combines academic

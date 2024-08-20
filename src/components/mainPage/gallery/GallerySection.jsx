@@ -12,7 +12,7 @@ export const GallerySection = () => {
           <div className="overflow-hidden w-full h-[300px] md:h-[400px] lg:h-[500px] relative ">
             <img
               className="w-full h-full hover:scale-125 ease-in duration-300"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+              src="/02.jpg"
             />
             <div className="absolute top-16  left-10">
               <Link
@@ -40,7 +40,7 @@ export const GallerySection = () => {
           <div className="w-full h-[300px] overflow-hidden md:h-[400px] lg:h-[500px] relative">
             <img
               className="w-full h-full hover:scale-125 ease-in duration-300"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+              src="/05.jpg"
             />
             <div className="absolute bottom-10 left-1/3">
               <Button title={"Read Article"} link={"/"} />
@@ -54,7 +54,7 @@ export const GallerySection = () => {
             <div className=" overflow-hidden">
               <img
                 className="group-hover:scale-125 ease-in duration-300 w-full h-full"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+                src="/03.jpg"
               />
             </div>
             <span className="absolute  -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6">
@@ -70,7 +70,7 @@ export const GallerySection = () => {
             <div className=" overflow-hidden">
               <img
                 className="group-hover:scale-125 ease-in duration-300 w-full h-full"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+                src="/04.jpg"
               />
             </div>
             <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6">
@@ -86,7 +86,7 @@ export const GallerySection = () => {
             <div className=" overflow-hidden">
               <img
                 className="group-hover:scale-125 ease-in duration-300 w-full h-full"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_Wu3kn4jBTRs26a-DaTaKDL3Yn4SfJdDOQ&s"
+                src="/08.jpg"
               />
             </div>
             <span className="absolute -bottom-7 -left-2 bg-white w-40 flex justify-center items-center rounded-[50px] pt-6 pb-6 ">
