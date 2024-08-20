@@ -6,6 +6,7 @@ import { useState } from "react";
 
 import { Button } from "../mainPage/button/Button";
 import { BorderButton } from "../mainPage/borderButton/BorderButton";
+import Link from "next/link";
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
   const drawerHandler = () => {
@@ -58,12 +59,12 @@ export const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/about-us"
                   className=" transition duration-1000 hover:text-sky-400 block font-semibold py-2 px-3 text-gray-900 xl:text-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400  "
                 >
                   About us
-                </a>
+                </Link>
               </li>
               <li>
                 <a
