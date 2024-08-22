@@ -155,7 +155,7 @@ import AnimatedComponentRight from "../../animations/AnimationRigth";
 
 export const FamiliesLoveSec = () => {
   return (
-    <div className=" bg-slate-100 pb-10 px-5">
+    <div className=" bg-slate-100 pb-15 px-5">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20  lg:gap-5 mx-auto my-20 py-20 max-w-6xl">
         <AnimatedComponentLeft>
           <div className="grid grid-cols-2 place-items-center lg:block lg:relative">
@@ -199,25 +199,25 @@ export const FamiliesLoveSec = () => {
         </AnimatedComponentRight>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center max-w-6xl  mx-auto">
-        <div className="flex flex-col gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8  max-w-6xl  mx-auto">
+        <div className="flex flex-col gap-5 items-center text-center">
           <span className="w-12 h-12 bg-green-600 rounded-full p-3">
             <IoCheckmarkSharp className="w-6 h-6  text-white" />
           </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
+          <p className="text-xl lg:text-xl font-bold text-sky-900">
             Education tailoured for your child
           </p>
-          <p className="text-base font-light">
+          <p className="text-base font-light   ">
             Al-Madinah Online School is accredited by the world-renowned
             Cambridge International, ensuring that your child receives a
             high-quality education recognised globally.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 items-center text-center">
           <span className="w-12 h-12 bg-orange-600 rounded-full p-3">
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
+          <p className="text-xl lg:text-xl font-bold text-sky-900">
             Qualified and motivated Teachers
           </p>
           <p className="text-base font-light">
@@ -227,11 +227,11 @@ export const FamiliesLoveSec = () => {
             experience, ensuring that every student can thrive.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 items-center text-center">
           <span className="w-12 h-12 bg-sky-600 rounded-full p-3">
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
+          <p className="text-xl lg:text-xl font-bold text-sky-900">
             Live Lessons
           </p>
           <p className="text-base font-light">
@@ -241,67 +241,40 @@ export const FamiliesLoveSec = () => {
             education that is respected worldwide.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
-          <span className="w-12 h-12 bg-yellow-500 rounded-full p-3">
+        {/* second div  */}
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20  lg:gap-5 mx-auto my-20 py-20 max-w-6xl">
+        <div className="flex flex-col gap-5 items-center text-center">
+          <span className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center p-3">
             <IoCheckmarkSharp className="w-6 h-6 text-white" />
           </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
+          <p className="text-xl lg:text-xl font-bold text-sky-900">
             Focus on Child spiritual growth and wellbeing
           </p>
-          <p className="text-base font-light">
+          <p className="text-base font-light max-w-md">
             Our online platform allows students to study from anywhere, whether
             they are moving to a different city or country, or unable to attend
             school for medical or wellbeing reasons. This flexibility ensures
-            that no child misses out on their education
+            that no child misses out on their education.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
-          <span className="w-12 h-12 bg-sky-600 rounded-full p-3">
-            <IoCheckmarkSharp className="w-6 h-6 text-white" />
-          </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Interactive sessions
-          </p>
-          <p className="text-base font-light">
-            Al-Madinah Online School offers a variety of subjects that may not
-            be available in local schools. This wider curriculum enables
-            students to explore and excel in areas of interest, providing a
-            well-rounded education.
-          </p>
+        <div className="flex flex-col gap-5 px-5">
+          <div className="flex flex-col gap-5 items-center text-center">
+            <span className="w-12 h-12 bg-orange-600 rounded-full p-3">
+              <IoCheckmarkSharp className="w-6 h-6 text-white" />
+            </span>
+            <p className="text-xl lg:text-xl font-bold text-sky-900">
+              Qualified and motivated Teachers
+            </p>
+            <p className="text-base font-light">
+              At Al-Madinah, we understand that each student has unique learning
+              needs. Our smaller class sizes and one-to-one support from
+              experienced tutors provide a flexible and personalised learning
+              experience, ensuring that every student can thrive.
+            </p>
+          </div>
         </div>
-        {/* <div className="flex flex-col gap-5">
-          <span className="w-12 h-12 bg-green-600 rounded-full p-3">
-            <IoCheckmarkSharp className="w-6 h-6 text-white" />
-          </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Adapted to Modern Needs
-          </p>
-          <p className="text-base font-light">
-            Our approach to online education is designed to meet the needs of
-            today's learners. By integrating advanced educational technologies
-            and methodologies, we ensure that our students receive an education
-            that is both effective and engaging.
-          </p>
-        </div>
-        <div className="flex flex-col gap-5">
-          <span className="w-12 h-12 bg-green-600 rounded-full p-3">
-            <IoCheckmarkSharp className="w-6 h-6 text-white" />
-          </span>
-          <p className="text-xl lg:text-2xl font-bold text-sky-900">
-            Supportive and Inclusive Environment
-          </p>
-          <p className="text-base font-light">
-            We believe in providing a supportive and inclusive environment where
-            students can grow into confident, compassionate individuals guided
-            by Islamic principles and academic success.
-          </p>
-        </div> */}
       </div>
-      {/* <p className="mx-auto text-center py-8 max-w-4xl">
-        Choose Al-Madinah Online School for an education that combines academic
-        excellence with the flexibility and support of online learning, all
-        within a framework of strong Islamic values.
-      </p> */}
     </div>
   );
 };
