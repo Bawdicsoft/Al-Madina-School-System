@@ -94,7 +94,7 @@ export default function HeroSection() {
     <div className="pt-5 mt-28">
       <div className="relative isolate px-6 lg:px-8">
         <div
-          className="max-w-7xl h-screen rounded-[40px] relative mx-auto animate-zoomFadeIn animate-backgroundMove"
+          className="max-w-7xl rounded-[40px] h-[550px] relative mx-auto animate-zoomFadeIn animate-backgroundMove"
           style={{
             backgroundImage: "url(./bannerHero2.jpg)",
             backgroundSize: "cover",
