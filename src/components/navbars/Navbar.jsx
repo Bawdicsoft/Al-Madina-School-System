@@ -81,7 +81,7 @@ export const Navbar = () => {
               enquire
             </button> */}
 
-            <Button href={`/Enquiry`} title={"enquire"} />
+            <Button link="/Enquiry" title={"enquire"} />
 
             <BorderButton link="/" title={"register now"} />
           </div>
