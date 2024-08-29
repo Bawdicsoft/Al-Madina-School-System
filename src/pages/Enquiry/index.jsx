@@ -220,8 +220,8 @@ export default function Enquiry() {
         <hr className="my-18 border-yellow-300 border-t-8 w-full max-w-9xl mx-auto" />
       </div>
       <div className="   p-10  ml-8  ">
-        <div className="grid grid-cols-3 gap-12  ">
-          <div className="col-span-2 bg-white p-8 flex flex-row items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12  ">
+          <div className="md:col-span-2 bg-white md:p-8 flex flex-row items-center justify-center">
             <div className="flex flex-col">
               <h1 className="text-2xl text-blue-950  font-bold">
                 Current Enrolment: Sept 2024/2025 Academic Year
@@ -806,7 +806,7 @@ export default function Enquiry() {
               </div>
             </div>
           </div>
-          <div className="col-span-1 bg-white p-4">
+          <div className="md:col-span-1 bg-white p-4">
             {" "}
             <div className="grid grid-cols-1 gap-4">
               <Link href={`/`}>
@@ -934,13 +934,6 @@ export default function Enquiry() {
                   opacity: 0.2,
                 }}
               ></div>
-              <Image
-                className="relative w-s"
-                src={`./family2.jpg`}
-                alt="Peace Lily"
-                width={160}
-                height={160}
-              />
             </div>
             <div className="relative text-white px-4 pb-5 mt-4">
               {/* <span className="block opacity-75 -mb-1">Indoor</span> */}
@@ -992,13 +985,6 @@ export default function Enquiry() {
                   opacity: 0.2,
                 }}
               ></div>
-              <Image
-                className="relative w-s"
-                src={`./family2.jpg`}
-                alt="Peace Lily"
-                // width={160}
-                // height={160}
-              />
             </div>
             <div className="relative text-white px-4 pb-5 mt-4">
               {/* <span className="block opacity-75 -mb-1">Indoor</span> */}
@@ -1049,13 +1035,6 @@ export default function Enquiry() {
                   opacity: 0.2,
                 }}
               ></div>
-              <Image
-                className="relative w-s"
-                src={`./family2.jpg`}
-                alt="Peace Lily"
-                // width={160}
-                // height={160}
-              />
             </div>
             <div className="relative text-white px-4 pb-5 mt-4">
               {/* <span className="block opacity-75 -mb-1">Indoor</span> */}
@@ -1107,13 +1086,6 @@ export default function Enquiry() {
                   opacity: 0.2,
                 }}
               ></div>
-              <Image
-                className="relative w-s"
-                src={`./family2.jpg`}
-                alt="Peace Lily"
-                // width={160}
-                // height={160}
-              />
             </div>
             <div className="relative text-white px-4 pb-5 mt-4">
               {/* <span className="block opacity-75 -mb-1">Indoor</span> */}
