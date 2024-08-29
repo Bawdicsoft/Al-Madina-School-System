@@ -126,7 +126,7 @@ export default function HeroSection() {
             <div className="w-full overflow-hidden">
               <AnimationBottom>
                 <Image
-                  src={"/bannerHero.jpg"}
+                  src={"/bannerHero1.jpg"}
                   className="mx-auto w-full h-full rounded-[40px]"
                   alt="heroImage"
                   width={300}
